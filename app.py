@@ -25,7 +25,7 @@ while(date < end):
     else:
         date += datetime.timedelta(days=30)
     dates.append(date)
-
+    
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/calendar']
 
@@ -80,6 +80,7 @@ def index():
         start = time.time()
         createEvent()
         print(time.time()-start)
+        return '<h1>👋 Done!</h1>'
     return render_template('index.html')
 
 
