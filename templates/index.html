@@ -14,9 +14,9 @@
 
   <body>
     <div class="jumbotron">
-      <form method="POST" action="/">
+      <form onsubmit="return confirm(document.getElementById('title').value);" method="POST" action="/">
         <div class="form-group">
-          <input
+          <input id='title'
             type="text"
             class="form-control"
             placeholder="Enter Topic"
