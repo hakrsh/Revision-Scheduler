@@ -73,7 +73,7 @@ def createEvent():
     p.join()
 
 @app.route('/index', methods=['GET', 'POST'])
-@app.route('/', methods=['GET', 'POST'])
+# @app.route('/', methods=['GET', 'POST'])
 def index():
     global title
     if request.method == 'POST':
