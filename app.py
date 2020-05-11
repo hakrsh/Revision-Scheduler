@@ -18,13 +18,14 @@ end = datetime.date(2021, 2, 1)
 date += datetime.timedelta(days=1)
 dates.append(date)
 count = 1
-while((date + datetime.timedelta(days=30)) < end):
+while(date < end):
     if count < 3:
         date += datetime.timedelta(days=7)
     else:
         date += datetime.timedelta(days=30)
     count += 1
-    dates.append(date)
+    if date > end:
+    	break
     
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/calendar']
