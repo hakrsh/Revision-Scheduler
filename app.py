@@ -26,6 +26,7 @@ while(date < end):
     count += 1
     if date > end:
     	break
+    dates.append(date)
     
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/calendar']
