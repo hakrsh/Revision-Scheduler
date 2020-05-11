@@ -21,7 +21,7 @@ count = 1
 while(date < end):
     if count < 3:
         date += datetime.timedelta(days=7)
-    else if count == 3:
+    elif count == 3:
         date += datetime.timedelta(days=15)
     else:
         date += datetime.timedelta(days=30)
