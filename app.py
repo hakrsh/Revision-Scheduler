@@ -18,12 +18,12 @@ end = datetime.date(2021, 2, 1)
 date += datetime.timedelta(days=1)
 dates.append(date)
 count = 1
-while(date < end):
-    if count < 4:
+while((date + datetime.timedelta(days=30)) < end):
+    if count < 3:
         date += datetime.timedelta(days=7)
-        count += 1
     else:
         date += datetime.timedelta(days=30)
+    count += 1
     dates.append(date)
     
 # If modifying these scopes, delete the file token.pickle.
