@@ -17,7 +17,7 @@ date = datetime.date.today()
 end = datetime.date(2021, 2, 1)
 date += datetime.timedelta(days=1)
 dates.append(date)
-count = 1
+count = 2 #for 1,7,7,15,30,30... make count=1
 while(date < end):
     if count < 3:
         date += datetime.timedelta(days=7)
