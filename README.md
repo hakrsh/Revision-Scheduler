@@ -1,7 +1,8 @@
 # ReWise- Revision Planner using Calendar API
 
 ## Dependencies for Running Locally
-* pipenv:`pip install --user pipenv`
+* pipenv
+  -`pip install --user pipenv`
 
 ## Basic Build Instructions
 1. Clone this repo.
