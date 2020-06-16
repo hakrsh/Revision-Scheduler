@@ -10,3 +10,4 @@
 3. Go to [https://developers.google.com/calendar/quickstart/python] enable Caledar API, Download credentials.json, Place it here
 4. `pipenv install`
 5. Run `pipenv run python app.py` `
+6. Open http://localhost:5000/
