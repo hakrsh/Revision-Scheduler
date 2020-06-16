@@ -8,7 +8,7 @@
 1. Clone this repo.
 2. `cd ReWise`
 ```bash
-    docker build --rm -t rewise
+    docker build --rm -t rewise .
     docker run -p 8080:5001 rewise
 ```
 Open http://localhost:8080/
