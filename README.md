@@ -7,7 +7,6 @@
 ## Basic Build Instructions
 1. Clone this repo.
 2. `cd ReWise`
-3. Go to https://developers.google.com/calendar/quickstart/python enable Caledar API, Download credentials.json, Place it here
 ```bash
     docker build --rm -t rewise
     docker run -p 8080:5001 rewise
