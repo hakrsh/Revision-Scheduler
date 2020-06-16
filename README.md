@@ -2,7 +2,7 @@
 
 ## Dependencies for Running Locally
 * pipenv
-  *`pip install --user pipenv`
+  * `pip install --user pipenv`
 
 ## Basic Build Instructions
 1. Clone this repo.
