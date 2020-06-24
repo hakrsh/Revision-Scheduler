@@ -1,14 +1,12 @@
 # ReWise- Revision Planner using Calendar API
 
-## Dependencies for Running Locally
-* docker
-  * Installation instructions- [https://docs.docker.com/get-docker/]
 
 ## Basic Build Instructions
 1. Clone this repo.
-```bash
-    cd ReWise
-    docker build --rm -t rewise .
-    docker run -p 8080:5001 rewise
-```
-Open http://localhost:8080/
+2. Download api credentials from https://developers.google.com/calendar/quickstart/python
+3. Copy credentials.json to app folder
+4. ```bash 
+      pipenv install
+      pipenv run python app/app.py```
+  ```
+Open http://127.0.0.1:5000/
