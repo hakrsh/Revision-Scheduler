@@ -6,6 +6,7 @@
 2. Download api credentials from https://developers.google.com/calendar/quickstart/python
 3. Copy credentials.json to app folder
  ```bash 
+      cd app/
       pipenv install
       pipenv run python app/app.py```
   ```
