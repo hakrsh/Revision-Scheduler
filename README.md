@@ -7,7 +7,7 @@
 3. Copy credentials.json to app folder
  ```bash 
       cd app/
-      pipenv install
+      pipenv install -r requirements.txt
       pipenv run python app/app.py```
   ```
 Open http://127.0.0.1:5000/
